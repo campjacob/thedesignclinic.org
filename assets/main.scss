@@ -7,3 +7,41 @@
 @import "syntax-highlighting";
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
 @import "bootstrap_customization";
+
+/* Welcome one-page Template */
+
+div .full-page {
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	color: #fff;
+}
+
+/* Footer Section */
+footer h3, .footer h1 {
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  font-weight: bolder;
+  border-bottom: #fff thin dotted;
+}
+
+footer .noborder {
+	border-bottom: none;
+}
+
+footer {
+  background: #333333;
+  color:#FFF;
+  padding:5px;
+}
+
+/* General */
+body {margin: 0; padding: 0;}
+
+p, blockquote, table, h1, h2, h3
+ { margin: 10px;
+}
+

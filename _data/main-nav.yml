@@ -1,0 +1,14 @@
+docs_list_title: Main Navigation List
+main-nav:
+  - title: About
+    url: /about/
+  - title: Design
+    subfolderitems:
+      - page: Logo Design
+        url: /logo-design/
+      - page: Website Design
+        url: /website-design/
+      - page: Print Design
+        url: /print-design/
+  - title: Blog
+    url: /blog/

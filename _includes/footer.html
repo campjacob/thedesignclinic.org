@@ -1,40 +1,47 @@
+<div class="py-5 mx-5 px-5">
+<div class="container-flex">
 
-<div class="py-5 border-top">
-  <div class="container">
+{% include html-logo-black.html %}
 
-    <p class="h5 mb-3">{{ site.title | escape }}</p>
-
-    <div class="row">
-
-      <div class="col-sm">
-        <ul class="list-unstyled">
-          <li>
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-          </li>
-          {%- if site.email -%}
-            <li>
-              <a href="mailto:{{ site.email }}">
-                {{ site.email }}
-              </a>
-            </li>
-          {%- endif -%}
-        </ul>
-      </div>
-
-
-      <div class="col-sm text-right">
-        <p>{{- site.description | escape -}}</p>
-
-        <p>
-          <a href="https://nicolas-van.github.io/bootstrap-4-github-pages/">Powered by Bootstrap 4 Github Pages</a>
-        </p>
-      </div>
-
-    </div>
-
+<div class="row">
+<div class="col-sm">
+<h3>Content</h3>
+<ul>
+{% for item in site.data.main-nav.main-nav %}
+  <li>
+    <a href="{{ item.url }}">{{ item.title }}</a>
+  </li>
+{% if item.subfolderitems[0] %}
+{% for entry in item.subfolderitems %}
+  <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+{% endfor %}
+{% endif %}
+{% endfor %}
+  <li>
+    <a href="/request-quote/">Request a Quote</a>
+  </li>
+</ul>
   </div>
+
+<div class="col-sm">
+<h3>Contact</h3>
+  <p>
+    Jacob Campbell<br />
+    <a href="tel:5093921056">(509) 392-1056</a><br />
+    <a href="mailto:jacob@thedesignclinic.org">jacob@thedesignclinic.org</a>
+  </p>
+</div>
+
+<div class="col-sm">
+<h3>Connect</h3>
+<blockquote>First Aid for your Brand</blockquote>
+  <a href="https://twitter.com/campjacob"><i class="fab fa-twitter display-3 d-inline-block" style="color:rgb(255,255,255);"></i></a>
+  <a href="http://fb.com/thedesignclinic" class="noborder"><i class="fab fa-facebook display-3 d-inline-block" style="color:rgb(255,255,255);"></i></a>
+</div> 
+
+</div>
+
+<p>&copy; 2014-20{{ site.time | date: '%y' }} The Design Clinic and <a href="http://jacobrcampbell.com/">Jacob Campbell</a> under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Attribution Share Alike</a> license built with <a href="https://getbootstrap.com/">Bootstrap</a> as the framework and is <a href="https://nicolas-van.github.io/bootstrap-4-github-pages/">Powered by Bootstrap 4 Github Pages</a>. The site is hosted on <a href="https://github.com/campjacob/thedesignclinic.org">GitHub</a> so feel free to fork the code.</p>
+
+</div>
 </div>
