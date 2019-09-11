@@ -1,4 +1,11 @@
 {
-	"Title" : "I'm a title"
-	"Date" : "Just text that should be a date"
+  "type": "authors",
+  "id": "au_4xJaaB",
+  "attributes": {
+    "username": "campjacob",
+    "name": "Jacob",
+    "full_name": "Jacob Campbell",
+    "twitter": "Campjacob",
+    "github": "campjacob"
+  }
 }
