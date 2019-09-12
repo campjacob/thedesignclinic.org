@@ -1,11 +1,25 @@
 {
-  "type": "authors",
-  "id": "au_4xJaaB",
-  "attributes": {
-    "username": "campjacob",
-    "name": "Jacob",
-    "full_name": "Jacob Campbell",
-    "twitter": "Campjacob",
-    "github": "campjacob"
-  }
-}
+  "data": [
+    {
+      "type": "authors",
+      "id": "au_4xJaaB",
+      "attributes": {
+        "username": "campjacob",
+        "name": "Jacob",
+        "full_name": "Jacob Campbell",
+        "twitter": "Campjacob",
+        "github": "campjacob",
+        "image": {
+          "src": "https://on.notist.cloud/profile/pr-campjacob-large-a2d84ff14d880fc9.jpg",
+          "width": 800,
+          "height": 600
+        },
+        "location": {
+          "address": "Pasco, WA 99301, USA",
+          "latitude": 46.230505,
+          "longitude": -119.092232
+        },
+        "bio": {
+          "html": null
+        }
+      }
