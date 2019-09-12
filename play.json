@@ -22,4 +22,56 @@
         "bio": {
           "html": null
         }
+      },
+      "relationships": {
+        "data": [
+          {
+            "type": "presentations",
+            "id": "pr_QvE8EJ",
+            "attributes": {
+              "title": "Week 04 - Theoretical Frameworks - What is behind the research that we complete",
+              "presented_on": "2019-09-09 08:00:00",
+              "published_on": "2019-09-09 08:00:00",
+              "timezone": "America/Los_Angeles",
+              "image": {
+                "src": "https://on.notist.cloud/slides/deck3553/thumb-0.jpg",
+                "width": "640",
+                "height": "480",
+                "mime": "image/jpeg"
+              }
+            },
+            "links": {
+              "self": "https://noti.st/campjacob/QvE8EJ/week-04-theoretical-frameworks-what-is-behind-the-research-that-we-complete",
+              "related": "https://noti.st/campjacob/QvE8EJ.json",
+              "event": "https://noti.st/events/aZcASv.json"
+            }
+          },
+          {
+            "type": "presentations",
+            "id": "pr_EQAysk",
+            "attributes": {
+              "title": "Week 04 - Overview of the Helping Process",
+              "presented_on": "2019-09-09 08:00:00",
+              "published_on": "2019-09-09 08:00:00",
+              "timezone": "America/Los_Angeles",
+              "image": {
+                "src": "https://on.notist.cloud/slides/deck3562/thumb-0.jpg",
+                "width": "640",
+                "height": "480",
+                "mime": "image/jpeg"
+              }
+            },
+            "links": {
+              "self": "https://noti.st/campjacob/EQAysk/week-04-overview-of-the-helping-process",
+              "related": "https://noti.st/campjacob/EQAysk.json",
+              "event": "https://noti.st/events/aZcASv.json"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://noti.st/campjacob"
       }
+    }
+  ]
+}
